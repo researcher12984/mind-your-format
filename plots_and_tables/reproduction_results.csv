@@ -1,0 +1,81 @@
+dataset,model,seed,example_selection_method,n_shots,example_ids,prediction_method,batch_size,precision,template_seed,template,score
+sst2,gptj,59,z-ICL,4,,channel_True,16,fp16,59,"Review: {}
+Sentiment: {}
+
+
+",0.8589449541
+sst2,gptj,13,z-ICL,4,,channel_True,16,fp16,59,"Review: {}
+Sentiment: {}
+
+
+",0.8555045872
+sst2,gptj,21,z-ICL,4,,channel_True,16,fp16,59,"Review: {}
+Sentiment: {}
+
+
+",0.8589449541
+sst2,gpt2-large,13,implicitly_topic_models,4,,channel_True,16,fp16,59,sentence: {} {},0.8314220183
+sst2,gpt2-large,21,implicitly_topic_models,4,,channel_True,16,fp16,59,sentence: {} {},0.8302752294
+sst2,gpt2-large,42,implicitly_topic_models,4,,channel_True,16,fp16,59,sentence: {} {},0.869266055
+sst2,gpt2-large,87,implicitly_topic_models,4,,channel_True,16,fp16,59,sentence: {} {},0.8520642202
+sst2,gpt2-large,100,implicitly_topic_models,4,,channel_True,16,fp16,59,sentence: {} {},0.8245412844
+sst2,gpt2-xl,13,implicitly_topic_models,4,,channel_True,16,fp16,59,sentence: {} {},0.7694954128
+sst2,gpt2-xl,21,implicitly_topic_models,4,,channel_True,16,fp16,59,sentence: {} {},0.5286697248
+sst2,gpt2-xl,42,implicitly_topic_models,4,,channel_True,16,fp16,59,sentence: {} {},0.6915137615
+sst2,gpt2-xl,87,implicitly_topic_models,4,,channel_True,16,fp16,59,sentence: {} {},0.8348623853
+sst2,gpt2-xl,100,implicitly_topic_models,4,,channel_True,16,fp16,59,sentence: {} {},0.8325688073
+sst2,gptj,13,implicitly_topic_models,4,,channel_True,16,fp16,59,sentence: {} {},0.8818807339
+sst2,gptj,21,implicitly_topic_models,4,,channel_True,16,fp16,59,sentence: {} {},0.8864678899
+sst2,gptj,42,implicitly_topic_models,4,,channel_True,16,fp16,59,sentence: {} {},0.873853211
+sst2,gptj,87,implicitly_topic_models,4,,channel_True,16,fp16,59,sentence: {} {},0.8348623853
+sst2,gptj,100,implicitly_topic_models,4,,channel_True,16,fp16,59,sentence: {} {},0.8589449541
+sst2,opt-6.7b,13,implicitly_topic_models,4,,channel_True,16,fp16,59,sentence: {} {},0.879587156
+sst2,opt-6.7b,21,implicitly_topic_models,4,,channel_True,16,fp16,59,sentence: {} {},0.8440366972
+sst2,opt-6.7b,42,implicitly_topic_models,4,,channel_True,16,fp16,59,sentence: {} {},0.877293578
+sst2,opt-6.7b,87,implicitly_topic_models,4,,channel_True,16,fp16,59,sentence: {} {},0.875
+sst2,opt-6.7b,100,implicitly_topic_models,4,,channel_True,16,fp16,59,sentence: {} {},0.8233944954
+sst2,llama-7b,13,implicitly_topic_models,4,,channel_True,16,fp16,59,sentence: {} {},0.9139908257
+sst2,llama-7b,21,implicitly_topic_models,4,,channel_True,16,fp16,59,sentence: {} {},0.8520642202
+sst2,llama-7b,42,implicitly_topic_models,4,,channel_True,16,fp16,59,sentence: {} {},0.8233944954
+sst2,llama-7b,87,implicitly_topic_models,4,,channel_True,16,fp16,59,sentence: {} {},0.880733945
+sst2,llama-7b,100,implicitly_topic_models,4,,channel_True,16,fp16,59,sentence: {} {},0.6020642202
+dbpedia,gpt2-large,13,implicitly_topic_models,4,,channel_True,16,fp16,59,{} {},0.655
+dbpedia,gpt2-large,21,implicitly_topic_models,4,,channel_True,16,fp16,59,{} {},0.688
+dbpedia,gpt2-large,42,implicitly_topic_models,4,,channel_True,16,fp16,59,{} {},0.601
+dbpedia,gpt2-large,87,implicitly_topic_models,4,,channel_True,16,fp16,59,{} {},0.605
+dbpedia,gpt2-large,100,implicitly_topic_models,4,,channel_True,16,fp16,59,{} {},0.558
+dbpedia,gpt2-xl,13,implicitly_topic_models,4,,channel_True,16,fp16,59,{} {},0.622
+dbpedia,gpt2-xl,21,implicitly_topic_models,4,,channel_True,16,fp16,59,{} {},0.598
+dbpedia,gpt2-xl,42,implicitly_topic_models,4,,channel_True,16,fp16,59,{} {},0.606
+dbpedia,gpt2-xl,87,implicitly_topic_models,4,,channel_True,16,fp16,59,{} {},0.634
+dbpedia,gpt2-xl,100,implicitly_topic_models,4,,channel_True,16,fp16,59,{} {},0.569
+dbpedia,gptj,13,implicitly_topic_models,4,,channel_True,16,fp16,59,{} {},0.619
+dbpedia,gptj,21,implicitly_topic_models,4,,channel_True,16,fp16,59,{} {},0.512
+dbpedia,gptj,42,implicitly_topic_models,4,,channel_True,16,fp16,59,{} {},0.529
+dbpedia,gptj,87,implicitly_topic_models,4,,channel_True,16,fp16,59,{} {},0.556
+dbpedia,gptj,100,implicitly_topic_models,4,,channel_True,16,fp16,59,{} {},0.483
+dbpedia,opt-6.7b,13,implicitly_topic_models,4,,channel_True,16,fp16,59,{} {},0.666
+dbpedia,opt-6.7b,21,implicitly_topic_models,4,,channel_True,16,fp16,59,{} {},0.593
+dbpedia,opt-6.7b,42,implicitly_topic_models,4,,channel_True,16,fp16,59,{} {},0.654
+dbpedia,opt-6.7b,87,implicitly_topic_models,4,,channel_True,16,fp16,59,{} {},0.634
+dbpedia,opt-6.7b,100,implicitly_topic_models,4,,channel_True,16,fp16,59,{} {},0.567
+dbpedia,llama-7b,13,implicitly_topic_models,4,,channel_True,16,fp16,59,{} {},0.714
+dbpedia,llama-7b,21,implicitly_topic_models,4,,channel_True,16,fp16,59,{} {},0.676
+dbpedia,llama-7b,42,implicitly_topic_models,4,,channel_True,16,fp16,59,{} {},0.664
+dbpedia,llama-7b,87,implicitly_topic_models,4,,channel_True,16,fp16,59,{} {},0.684
+dbpedia,llama-7b,100,implicitly_topic_models,4,,channel_True,16,fp16,59,{} {},0.659
+sst2,gpt-neox,59,z-ICL,4,,channel_True,16,fp16,59,"Review: {}
+Sentiment: {}
+
+
+",0.8314220183
+sst2,gpt-neox,13,z-ICL,4,,channel_True,16,fp16,59,"Review: {}
+Sentiment: {}
+
+
+",0.8337155963
+sst2,gpt-neox,21,z-ICL,4,,channel_True,16,fp16,59,"Review: {}
+Sentiment: {}
+
+
+",0.8360091743

@@ -113,4 +113,3 @@ if __name__ == '__main__':
                                                        )
                     results[template] = evaluation_result["scores"]
                     save_results_torch(res_obj=results, name=name, save_dir=res_dir)
-                    save_results_nirvana()
